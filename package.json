@@ -1,0 +1,38 @@
+{
+  "name": "ContentTest",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "test:unit": "vitest --project unit",
+    "test:nuxt": "vitest --project nuxt",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "@nuxt/content": "3.10.0",
+    "@nuxt/hints": "1.0.0-alpha.5",
+    "@nuxt/test-utils": "3.23.0",
+    "@nuxt/ui": "4.3.0",
+    "better-sqlite3": "^12.5.0",
+    "nuxt": "^4.2.2",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.26",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@vitest/coverage-v8": "^4.0.16",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.0.11",
+    "playwright-core": "^1.57.0",
+    "vitest": "^4.0.16"
+  }
+}
