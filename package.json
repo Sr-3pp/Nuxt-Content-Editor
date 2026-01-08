@@ -1,5 +1,5 @@
 {
-  "name": "ContentTest",
+  "name": "nuxt-content-editor",
   "type": "module",
   "private": true,
   "scripts": {
